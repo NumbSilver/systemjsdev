@@ -1,2 +1,3 @@
-import {firstTypeScriptDemo} from "./src/firstTDemo";
+import {firstTypeScriptDemo} from "./src/firstTSDemo.ts";
+
 new firstTypeScriptDemo();

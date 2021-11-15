@@ -13,9 +13,9 @@
     <body>
         <script>
             System.config({
-                Transpiler: 'typescript',
-                Packages: {
-                    './': {defaultExtension:'ts'}
+                transpiler: 'typescript',
+                packages: {
+                    './ ': {defaultExtension:'ts'}
                 }
             });
             System.import('main.ts').then(null,console.error.bind(console));
